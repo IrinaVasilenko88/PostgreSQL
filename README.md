@@ -7,3 +7,15 @@
 ## Тема: Docker и Docker Compose
 - Настройка Docker
 - Подготовка приложения(```db-api.jar```) к тестированию на СУБД PostgreSQL
+
+**Для запуска проекта:**
+1. Склонировать проект из репозитория командой 
+
+```
+git clone https://github.com/IrinaVasilenko88/PostgreSQL.git
+```
+2. Открыть склонированный проект в Intellij IDEA
+3. Запустить команду ```docker-compose up```
+4. Для запуска приложения ввести команду ```java -jar db-api.jar```
+5. Открыть в браузере ссылку [](http://localhost:9999/api/cards)
+6. По ссылке должен быть JSON с информацией о картах.
